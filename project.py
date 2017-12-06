@@ -4,11 +4,11 @@ import pandas as pd
 X = []
 Y = ['O', 'B-neutral', 'B-negative', 'B-positive', 'I-neutral', 'I-negative', 'I-positive']
 k = 3
-train_path = '/Users/wangkunyu/Desktop/ML project/EN/train'
-dev_in_path = '/Users/wangkunyu/Desktop/ML project/EN/dev.in'
-dev_p2_out_path = '/Users/wangkunyu/Desktop/ML project/EN/dev.p2.out'
-dev_p3_out_path = '/Users/wangkunyu/Desktop/ML project/EN/dev.p3.out'
-dev_p4_out_path = '/Users/wangkunyu/Desktop/ML project/EN/dev.p4.out'
+train_path = './EN/train'
+dev_in_path = './EN/dev.in'
+dev_p2_out_path = './EN/dev.p2.out'
+dev_p3_out_path = './EN/dev.p3.out'
+dev_p4_out_path = './EN/dev.p4.out'
 
 
 count_yx = pd.DataFrame(0, columns = X, index = Y)
@@ -169,4 +169,4 @@ def predict4():
 			dev_p4_out.write(line)
 			x = []
 
-predict3()
+predict4()
