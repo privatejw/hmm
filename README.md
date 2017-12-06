@@ -30,4 +30,9 @@ optional arguments:
   -k K        Indicate value of k. Defaults to 3
 ```
 
+For part 5, we tried several other methods which were not used in the final file. These methods have been detailed in p5(only works for EN).py, 
+```terminal
+$ python "p5(only works for EN).py"
+```
+
 Please ensure that you are running the script in the current directory. 
